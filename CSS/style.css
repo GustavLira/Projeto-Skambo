@@ -111,14 +111,28 @@ main{
     text-decoration: none;
 }
 
+.right{
+    width: 640px;
+    height: 555px;
+    display: flex;
+    margin-top: 0px;
+    padding-top: 0px;
+    flex-direction: column;
+    border-radius: 0px 16px 16px 0px;
+}
+
 .cabecalho{
-    width: 500px;
+    width: 640px;
     height: 150px;
-    top: 213px;
+    top: 200px;
     left: 957px;
     align-items: center;
     justify-content: center;
-    margin-left: 165px;
+    text-align: center;
+    padding-left: 26%;
+    margin-top: 0px;
+    padding-top: 0px;
+    flex-direction: column;
 }
 
 .cabecalho > h1{
@@ -147,14 +161,96 @@ main{
     text-align: center;
     color: black;
     margin-left: 36px;
+    margin-top: -7px;
 }
 
 .card{
-    width: 600px;
-    height: 555px;
+    width: 640px;
+    height: 405px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
     display: flex;
 }
 
+.card > input{
+    width: 480px;
+    height: 60px;
+    border-radius: 16px;
+    padding-left: 50px;
+    color: white;
+    background: #E2CE1A;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-top: 12px;
+    outline: none;
+    border: none;
+    font-size: 18pt;
+    font-family: Poppins;
+    text-align: left;
+}
+
+.inputs::placeholder{
+    width: 201px;
+    height: 54px;
+    color: #00000099;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+}
+
+.inputs:focus-within{
+    
+}
+
+#labels1{
+    width: 20px;
+    height: 20px;
+    font-size: 30pt;
+    position: absolute;
+    display: flex;
+    margin-top: 33px;
+    margin-left: -410px;
+}
+
+#labels2{
+    width: 20px;
+    height: 20px;
+    font-size: 30pt;
+    position: absolute;
+    margin-left: -410px;
+    margin-top: 107px;
+    display: flex;
+}
+
+#labels3{
+    width: 20px;
+    height: 20px;
+    font-size: 30pt;
+    position: absolute;
+    margin-left: -410px;
+    margin-top: 176px;
+    display: flex;
+}
+
+.card > button{
+    width: 232px;
+    height: 70px;
+    border-radius: 30px;
+    background: #36320A;
+    color: white;
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 0px 2px 2px 0px #00000040;
+}
 
