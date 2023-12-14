@@ -30,7 +30,8 @@ Você pode conferir o design da interface no [link do Figma](https://www.figma.c
 
 ## Preview
 
-![preview]
+![Preview Skambo](https://github.com/GustavLira/Projeto-Skambo/assets/140671152/599a394c-dc64-4a19-8403-fd51d2612204)
+
 
 
 ## Deploy
